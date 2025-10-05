@@ -1,0 +1,101 @@
+@media(max-width: 72rem){
+
+    html{
+        font-size: 62.25%;
+        /* 9px / 16px = 56.25% */
+    }
+    .main-features-grid{
+        grid-template-columns: 1fr;
+    }
+
+    h1, h2, h3, h4, h5{
+        letter-spacing: 1.3px;
+    }
+
+   nav{
+        display: none;
+    }
+}
+
+/* MD - TABLETS: 768px - 1024px */
+
+@media (max-width: 51rem) {
+    /* 815px / 16px = 51rem */
+    /* 51rem x 16px = 816px */
+
+    html {
+        font-size: 50%;
+        /* 8px / 16px = 50% */
+    }
+
+}
+
+/* SM - PHONE LANDSCAPE: 576px - 768px */
+
+@media (max-width: 43rem){
+    /* 680px / 16px = 43rem */
+    /* 43rem x 16px = 688px */
+
+    html{
+        font-size: 43.75%;
+        /* 7px / 16px = 43.75% */
+    }
+
+    .cta-card{
+        padding: 7.5rem 15rem;
+    }
+
+}
+
+/* XS - PHONE PORTRAINT:  < 576px */
+
+@media (max-width: 34rem){
+    /* 530px / 16px = 34rem */
+    /* 34rem x 16px = 544px */
+
+    html{
+        font-size: 43.75%;
+        /* 6px / 16px = 37.5% */
+    }
+
+    h1{
+        font-size: var(--text-h2);
+    }
+
+    .cta-card{
+        padding: 6rem 12rem;
+    }
+
+ .main-features-grid{
+        grid-template-columns: 1fr;
+    }
+    .review-card-grid{
+        grid-template-columns: 1fr;
+        row-gap: 5rem;
+    }
+
+    .footer-content-grid{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5rem;
+        justify-content: center;
+        align-content: center;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .nav-logo{
+        display:inline-block;
+    }
+
+    .logo-and-links-container{
+        flex-direction: row;
+        gap: 10rem;
+    }
+
+.icon-f{
+    display: flex;
+}
+
+}
