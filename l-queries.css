@@ -98,4 +98,18 @@
     display: flex;
 }
 
+.footer-item-3{
+    margin-left: 3rem;
+    margin-top: 0;
+}
+
+.footer-item-4{
+    margin-top: 0;
+}
+
+.features{
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
 }
