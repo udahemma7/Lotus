@@ -356,8 +356,9 @@ ul {
 
 .l-text{
     text-align: center;
-    font-size: var(--text-sm);
+    font-size: 1.4rem;
     color: var(--grey-base);
+    margin-bottom: 4rem;
 }
 
 
