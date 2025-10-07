@@ -28,6 +28,12 @@
         /* 8px / 16px = 50% */
     }
 
+    .features{
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin-left: 18rem;
+}
+
 }
 
 /* SM - PHONE LANDSCAPE: 576px - 768px */
@@ -110,6 +116,11 @@
 .features{
     grid-template-columns: 1fr;
     align-items: center;
+    margin-left: 0rem;
+}
+
+.cta-heading{
+    font-size: 3.2rem;
 }
 
 }
