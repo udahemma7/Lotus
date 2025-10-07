@@ -260,6 +260,10 @@ ul {
     margin-top: 3rem;
 }
 
+.f-H{
+    margin-top: 7rem;
+}
+
 
 
 /* ------ main-FEATURES------ */
@@ -395,6 +399,7 @@ footer{
     color: var(--white);
     /* margin-bottom: 4rem; */
 }
+
 
 .footer-icon a{
     display: inline-flex;
