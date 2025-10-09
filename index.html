@@ -9,31 +9,54 @@
     <link rel="stylesheet" href="l-queries.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <nav>
 
-                <div class="logo-container">
-                <img class="nav-logo" src="images/logo.svg" alt="logo">
-                <p>LOTUS</p>
-                </div>
+    <header>
+        
+          <nav>
+    <div class="logo">
+      <img src="images/logo.svg" alt="Logo" />
+      <span>LOTUS</span>
+    </div>
 
-                    <ul class="nav-item">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Pricing</a>
+      <a href="#">Blog</a>
+      <a href="#">About</a>
+      <a href="#">Contact us</a>
+    </div>
 
-                    <ul class="nav-item">
-                        <li><a href="#">sign in</a></li>
-                        <li><a href="#" class="btn btn-primary">start for free</a></li>
-                    </ul>
-            </nav>
-        </header>
+    <div class="actions">
+      <a href="#">Sign In</a>
+      <a href="#" class="btn btn-primary">start for free</a>
+    </div>
 
-        <section class="hero-section">
+    <!-- Accessible hamburger button -->
+    <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+      <div></div>
+      <div></div>
+      <div></div>
+    </button>
+  </nav>
+
+  <div class="sidebar" id="sidebar">
+    <a href="#">Home</a>
+    <a href="#">Pricing</a>
+    <a href="#">Blog</a>
+    <a href="#">About</a>
+    <a href="#">Contact us</a>
+    <hr>
+    <a href="#">Sign In</a>
+    <a href="#" class="btn-m-nav">start for free</a>
+  </div>
+
+  <div class="overlay" id="overlay"></div>
+
+    </header>
+
+    <main>
+
+                <section class="hero-section">
             <div class="hero-text">
                 <h1>Simplifying HR For Growing Global Businesses</h1>
                 <p>Streamline HR, retain top talent, and build a high-performing team <br> with a focus on employee experience.</p>
@@ -155,16 +178,12 @@
                 </div>
     </section>
 
-      
-  
 
+    </main>
 
-     
- </div>
+    <footer class="footer">
 
-      <footer class="footer">
-
-        <div class="footer-s-c">
+                <div class="footer-s-c">
 
         <div class="footer-content-grid">
 
@@ -222,9 +241,9 @@
 
          <p class="l-text">created by Udah.e &copy; 2025</p>
 
-         </div>
-     </footer>
 
-
+    </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>

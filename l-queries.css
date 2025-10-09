@@ -1,3 +1,14 @@
+@media (max-width: 900px) {
+  .nav-links,
+  .actions {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
 @media(max-width: 72rem){
 
     html{
@@ -12,9 +23,6 @@
         letter-spacing: 1.3px;
     }
 
-   nav{
-        display: none;
-    }
 }
 
 /* MD - TABLETS: 768px - 1024px */
@@ -87,9 +95,6 @@
         align-content: center;
     }
 
-    nav{
-        display: none;
-    }
 
     .nav-logo{
         display:inline-block;
